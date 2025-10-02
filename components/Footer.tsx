@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 text-center">
         <p className="text-gray-400">
           © {new Date().getFullYear()}{' '}
-          {language === 'en' ? 'HundredFold. All rights reserved.' : '百倍。版权所有。'}
+          {language === 'en' ? 'HundredFold. All rights reserved.' : '百福。版权所有。'}
         </p>
       </div>
     </footer>
