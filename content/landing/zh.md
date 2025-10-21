@@ -1,10 +1,20 @@
 ---
-hero: |
-  # 欢迎来到百福
-
-  通过创新和奉献赋能增长
-
-  ![Hero Image](https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=600&fit=crop)
+heroSlides:
+  - image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=600&fit=crop"
+    title: "欢迎来到百福"
+    description: "通过创新和奉献赋能增长"
+    buttonText: "了解更多"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=1200&h=600&fit=crop"
+    title: "全面的财务服务"
+    description: "从税务规划到房地产投资"
+    buttonText: "我们的服务"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&h=600&fit=crop"
+    title: "联系我们"
+    description: "让我们帮助您实现财务目标"
+    buttonText: "联系我们"
+    buttonLink: "/contact"
 
 introduction: |
   ## 关于我们

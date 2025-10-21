@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import HeroSection from '@/components/HeroSection';
+import HeroCarousel from '@/components/HeroCarousel';
 import IntroductionSection from '@/components/IntroductionSection';
 import ServicesSection from '@/components/ServicesSection';
 import EmailSignupSection from '@/components/EmailSignupSection';
@@ -39,7 +39,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1">
-        {content.hero && <HeroSection content={content.hero} />}
+        {content.heroSlides && <HeroCarousel slides={content.heroSlides} autoScrollDuration={5000} />}
         {content.introduction && <IntroductionSection content={content.introduction} />}
         {content.services && <ServicesSection content={content.services} />}
         <EmailSignupSection />

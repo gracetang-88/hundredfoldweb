@@ -1,10 +1,20 @@
 ---
-hero: |
-  # Welcome to HundredFold
-
-  Empowering growth through innovation and dedication
-
-  ![Hero Image](https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=600&fit=crop)
+heroSlides:
+  - image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=600&fit=crop"
+    title: "Welcome to HundredFold"
+    description: "Empowering growth through innovation and dedication"
+    buttonText: "Learn More"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=1200&h=600&fit=crop"
+    title: "Comprehensive Financial Services"
+    description: "From tax planning to real estate investment"
+    buttonText: "Our Services"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&h=600&fit=crop"
+    title: "Get In Touch"
+    description: "Let us help you achieve your financial goals"
+    buttonText: "Contact Us"
+    buttonLink: "/contact"
 
 introduction: |
   ## About Us
