@@ -11,6 +11,7 @@ interface ServiceData {
   subtitle: string;
   services: Array<{
     title: string;
+    slug: string;
     items: string[];
     iconBg: string;
     icon: string;
@@ -60,6 +61,7 @@ export default function ServicesPage() {
               <ServiceCard
                 key={index}
                 title={service.title}
+                slug={service.slug}
                 items={service.items}
                 iconBg={service.iconBg}
                 icon={service.icon}

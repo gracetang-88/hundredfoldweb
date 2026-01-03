@@ -3,6 +3,7 @@ title: Services We Provide For You
 subtitle: Professional and complete All-In-One service for the clients to enjoy. Services from life insurance, annuity, and financial management, to now encompassing mortgage financing, real estate, asset management, health insurance, and Property & Casualty insurance.
 services:
   - title: Tax Services
+    slug: tax-services
     icon: 🧮
     iconBg: bg-gray-100
     items:
@@ -10,6 +11,7 @@ services:
       - "Retirement Planning"
       - "Tax Coaching & Planning"
   - title: Insurance
+    slug: insurance
     icon: 🛡️
     iconBg: bg-green-100
     items:
@@ -17,17 +19,20 @@ services:
       - "Commercial Insurance"
       - "Medicare"
   - title: Lending
+    slug: lending
     icon: 💰
     iconBg: bg-yellow-100
     items:
       - "Mortgage and Refinancing"
       - "Private Lending"
   - title: Real Estate
+    slug: real-estate
     icon: 🏠
     iconBg: bg-blue-100
     items:
       - "Team brokered by eXp Realty"
   - title: Investment
+    slug: investment
     icon: 📊
     iconBg: bg-red-100
     items:
