@@ -72,8 +72,11 @@ export default function ServiceDetailPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 py-16 bg-white">
-        <div className="container mx-auto px-4 max-w-5xl">
+      <main className="flex-1 py-16 bg-gradient-to-b from-gray-50 via-white to-green-50/10 relative overflow-hidden">
+        {/* Decorative background */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-gradient-radial from-green-100/30 to-transparent rounded-full blur-3xl -z-10"></div>
+
+        <div className="container mx-auto px-4 max-w-5xl relative z-10">
           {/* Header Section */}
           <div className="text-center mb-12">
             <div className="text-6xl mb-6">{content.icon}</div>

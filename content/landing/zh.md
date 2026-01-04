@@ -1,20 +1,20 @@
 ---
 heroSlides:
-  - image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=600&fit=crop"
+  - image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=600&fit=crop"
     title: "欢迎来到百福"
-    description: "通过创新和奉献赋能增长"
+    description: "您值得信赖的财务规划和财富管理伙伴"
     buttonText: "了解更多"
     buttonLink: "/services"
-  - image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=1200&h=600&fit=crop"
+  - image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop"
+    title: "房地产与投资"
+    description: "通过战略性房产投资和管理积累财富"
+    buttonText: "探索房源"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=600&fit=crop"
     title: "全面的财务服务"
-    description: "从税务规划到房地产投资"
+    description: "税务规划、保险、贷款和投资解决方案"
     buttonText: "我们的服务"
     buttonLink: "/services"
-  - image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&h=600&fit=crop"
-    title: "联系我们"
-    description: "让我们帮助您实现财务目标"
-    buttonText: "联系我们"
-    buttonLink: "/contact"
 
 introduction: |
   ## 关于我们
