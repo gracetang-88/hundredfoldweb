@@ -47,10 +47,10 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 py-16 bg-gradient-to-br from-white via-gray-50 to-green-50/20 relative overflow-hidden">
+      <main className="flex-1 py-16 bg-gradient-to-br from-gray-50 via-blue-50/40 to-green-50/60 relative overflow-hidden">
         {/* Decorative elements */}
-        <div className="absolute top-20 right-10 w-72 h-72 bg-green-100 rounded-full blur-3xl opacity-20 -z-10"></div>
-        <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-20 -z-10"></div>
+        <div className="absolute top-20 right-10 w-[500px] h-[500px] bg-green-200/50 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute bottom-20 left-10 w-[600px] h-[600px] bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
 
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-5xl font-bold text-center mb-8 text-gray-800">

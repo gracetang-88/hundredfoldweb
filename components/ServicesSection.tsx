@@ -4,9 +4,9 @@ interface ServicesSectionProps {
 
 export default function ServicesSection({ content }: ServicesSectionProps) {
   return (
-    <section className="py-16 bg-gradient-to-br from-gray-50 via-green-50/30 to-blue-50/30 relative overflow-hidden">
+    <section className="py-16 bg-gradient-to-br from-blue-50/50 via-gray-100 to-green-50/50 relative overflow-hidden">
       {/* Decorative grid pattern */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{
+      <div className="absolute inset-0 opacity-[0.05]" style={{
         backgroundImage: `linear-gradient(to right, #000 1px, transparent 1px),
                           linear-gradient(to bottom, #000 1px, transparent 1px)`,
         backgroundSize: '40px 40px'
