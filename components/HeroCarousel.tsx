@@ -50,6 +50,9 @@ export default function HeroCarousel({
             index === currentSlide ? 'opacity-100' : 'opacity-0'
           }`}
         >
+          {/* Fallback gradient keeps white text readable if the image fails to load */}
+          <div className="absolute inset-0 bg-gradient-to-br from-emerald-900 via-teal-800 to-slate-900" />
+
           {/* Background Image */}
           <div
             className="absolute inset-0 bg-cover bg-center"
@@ -71,7 +74,7 @@ export default function HeroCarousel({
               {slide.buttonText && slide.buttonLink && (
                 <Link
                   href={slide.buttonLink}
-                  className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-colors shadow-lg"
+                  className="inline-block bg-emerald-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-emerald-700 transition-colors shadow-lg"
                 >
                   {slide.buttonText}
                 </Link>
