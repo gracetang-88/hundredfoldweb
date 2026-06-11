@@ -1,41 +1,47 @@
 ---
 heroSlides:
-  - image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=600&fit=crop"
-    title: "欢迎来到百福"
-    description: "您值得信赖的财务规划和财富管理伙伴"
+  - image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=600&fit=crop"
+    title: "守护您最珍视的一切"
+    description: "人寿保险、年金及家庭财务保障 — 来自代理数十家顶级保险公司的独立经纪"
+    buttonText: "了解我们的服务"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&h=600&fit=crop"
+    title: "为您的企业保驾护航"
+    description: "企业责任险、商业财产险、劳工保险 — 在线几分钟即可获取报价"
+    buttonText: "免费在线报价"
+    buttonLink: "/quote"
+  - image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&h=600&fit=crop"
+    title: "专业税务服务"
+    description: "个人和企业报税、IRS 税务争议代理、全年税务规划"
     buttonText: "了解更多"
-    buttonLink: "/services"
-  - image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop"
-    title: "房地产与投资"
-    description: "通过战略性房产投资和管理积累财富"
-    buttonText: "探索房源"
-    buttonLink: "/services"
-  - image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=600&fit=crop"
-    title: "全面的财务服务"
-    description: "税务规划、保险、贷款和投资解决方案"
-    buttonText: "我们的服务"
-    buttonLink: "/services"
+    buttonLink: "/services/tax-services"
 
 introduction: |
   ## 关于我们
 
-  在百福，我们相信通过深思熟虑的解决方案创造有意义的影响。我们的使命是在我们所做的一切中提供卓越的服务，同时保持简单和清晰。
+  百福（HundredFold）是一家独立保险经纪及税务服务机构，以中英文双语服务湾区及周边地区的家庭和企业主。
 
-  ![团队协作](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop)
+  因为我们是**独立经纪**，我们为您服务 — 而不是为任何一家保险公司服务。我们代理**数十家顶级评级的保险公司**，能够为您货比三家，推荐真正符合您需求和预算的保障方案。
 
-  我们将专业知识与创新相结合，帮助客户高效地实现目标。
+  我们的服务涵盖对您财务健康最重要的两个领域：
+
+  - **保险** — 人寿保险、年金、企业主商业保险、旅游保险
+  - **税务** — 个人和企业报税、IRS 税务争议代理、前瞻性税务规划
+
+  一个值得信赖的团队，一幅完整清晰的财务图景 — 让您安心无忧。
 
 services: |
-  ## 我们的服务
+  ## 为什么客户选择我们
 
-  ### 咨询服务
-  根据您的独特需求量身定制的战略指导。我们帮助您清晰自信地应对复杂挑战。
+  ### 独立客观
+  我们比较数十家保险公司的产品，为您找到最具价值的方案 — 我们的建议以您的需求为导向，而非销售指标。
 
-  ### 开发服务
-  构建随业务扩展的稳健解决方案。从概念到部署，我们确保每一步的质量。
+  ### 保险 + 税务一站式服务
+  您的保险和税务策略相互影响。我们着眼全局，确保两者协同为您服务。
 
-  ### 支持服务
-  持续的合作伙伴关系，确保您的持续成功。当您需要我们时，我们随时提供可靠的帮助。
+  ### 中英双语服务
+  我们以流利的中文和英文为您服务，重要的财务决策不因语言而产生误解。
 
-  [youtube:dQw4w9WgXcQ]
+  ### 快捷现代的体验
+  旅游保险和部分商业保险可在线即时报价，AI 智能助手随时在线，帮您快速找到所需服务。
 ---

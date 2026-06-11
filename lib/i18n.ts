@@ -1,5 +1,7 @@
 import { Language } from '@/types';
 
+export type { Language };
+
 export const languages: Language[] = ['en', 'zh'];
 
 export const languageNames: Record<Language, string> = {

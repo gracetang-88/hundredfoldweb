@@ -37,10 +37,10 @@ export default function EmailSignupSection() {
   const t = texts[language];
 
   return (
-    <section className="py-16 bg-blue-600 text-white">
+    <section className="py-16 bg-emerald-700 text-white">
       <div className="container mx-auto px-4 max-w-2xl text-center">
         <h2 className="text-3xl font-bold mb-4">{t.title}</h2>
-        <p className="text-blue-100 mb-8">{t.subtitle}</p>
+        <p className="text-emerald-100 mb-8">{t.subtitle}</p>
 
         {status === 'success' ? (
           <div className="bg-green-500 text-white py-4 px-6 rounded-lg">
@@ -54,11 +54,11 @@ export default function EmailSignupSection() {
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t.placeholder}
               required
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
+              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-emerald-300"
             />
             <button
               type="submit"
-              className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+              className="px-6 py-3 bg-white text-emerald-700 font-semibold rounded-lg hover:bg-emerald-50 transition-colors"
             >
               {t.button}
             </button>
