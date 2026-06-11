@@ -2,9 +2,8 @@
 formTitle: 让我为您的生活添砖加瓦！
 generalEnquiries:
   title: 联络方式
-  phone: "+1 (555) 123-4567"
-  email: "info@hundredfold.com"
-  address: "123 Main Street, Suite 100\nCity, State 12345"
+  phone: "+1 (669) 310-7777"
+  email: "contact@hundredfoldinsurance.net"
   officeHours:
     - day: 周一 - 周五
       hours: "上午9:00 - 下午5:00"
