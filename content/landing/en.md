@@ -1,41 +1,47 @@
 ---
 heroSlides:
-  - image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=600&fit=crop"
-    title: "Welcome to HundredFold"
-    description: "Your Trusted Partner in Financial Planning and Wealth Management"
+  - image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=600&fit=crop"
+    title: "Protecting What Matters Most"
+    description: "Life insurance, annuities, and financial protection for your family — from an independent agency representing dozens of top-rated carriers"
+    buttonText: "Explore Our Services"
+    buttonLink: "/services"
+  - image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&h=600&fit=crop"
+    title: "Coverage for Your Business"
+    description: "General liability, commercial property, and workers' compensation — get a quote online in minutes"
+    buttonText: "Get a Free Quote"
+    buttonLink: "/quote"
+  - image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&h=600&fit=crop"
+    title: "Professional Tax Services"
+    description: "Individual and business tax returns, IRS dispute representation, and year-round tax planning"
     buttonText: "Learn More"
-    buttonLink: "/services"
-  - image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop"
-    title: "Real Estate & Investment"
-    description: "Building wealth through strategic property investment and management"
-    buttonText: "Explore Properties"
-    buttonLink: "/services"
-  - image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=600&fit=crop"
-    title: "Comprehensive Financial Services"
-    description: "Tax planning, insurance, lending, and investment solutions"
-    buttonText: "Our Services"
-    buttonLink: "/services"
+    buttonLink: "/services/tax-services"
 
 introduction: |
   ## About Us
 
-  At HundredFold, we believe in creating meaningful impact through thoughtful solutions. Our mission is to deliver excellence while maintaining simplicity and clarity in everything we do.
+  HundredFold is an independent insurance agency and tax practice serving families and business owners in the Bay Area and beyond, in both English and Chinese.
 
-  ![Team collaboration](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop)
+  Because we are **independent**, we work for you — not for any single insurance company. We represent **dozens of top-rated carriers**, which means we can shop the market on your behalf and recommend the coverage that truly fits your needs and budget.
 
-  We combine expertise with innovation to help our clients achieve their goals efficiently and effectively.
+  Our services cover two areas that matter most to your financial well-being:
+
+  - **Insurance** — life insurance, annuities, commercial insurance for business owners, and travel coverage
+  - **Tax** — individual and business tax preparation, IRS dispute representation, and proactive tax planning
+
+  One trusted team, one clear picture of your finances — so nothing falls through the cracks.
 
 services: |
-  ## Our Services
+  ## Why Clients Choose Us
 
-  ### Consulting
-  Strategic guidance tailored to your unique needs. We help you navigate complex challenges with clarity and confidence.
+  ### Independent & Unbiased
+  We compare products from dozens of carriers to find you the best value — our advice is driven by your needs, not sales quotas.
 
-  ### Development
-  Building robust solutions that scale with your business. From concept to deployment, we ensure quality at every step.
+  ### Insurance + Tax Under One Roof
+  Your insurance and tax strategies affect each other. We see the whole picture and make sure both work together for you.
 
-  ### Support
-  Ongoing partnership to ensure your continued success. We're here when you need us, providing reliable assistance.
+  ### Bilingual Service
+  We serve you fluently in English and Chinese (中文), so nothing gets lost in translation on important financial decisions.
 
-  [youtube:dQw4w9WgXcQ]
+  ### Fast, Modern Experience
+  Get instant online quotes for travel insurance and select commercial coverage, or chat with our AI assistant anytime to find what you need.
 ---

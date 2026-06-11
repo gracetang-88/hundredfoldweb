@@ -1,40 +1,40 @@
 ---
 title: Tax Services
-icon: 🧮
-description: Comprehensive tax services for individuals and businesses, including tax preparation, planning, and advisory services.
+icon: 📋
+description: Individual and business tax preparation, IRS dispute representation, and proactive tax planning — handled by professionals who also understand your insurance and retirement picture.
 features:
-  - Individual & Corporate Tax Return Preparation
-  - Tax Planning & Strategy
-  - Retirement Planning & Advisory
-  - Tax Audit Representation
-  - IRS Correspondence Handling
-  - Estate & Trust Tax Services
-  - Multi-State Tax Compliance
-  - Tax Credits & Deductions Optimization
+  - Individual Tax Returns (1040)
+  - Business Tax Returns (1120, 1120-S, 1065, Schedule C)
+  - IRS & State Dispute Representation
+  - Audit Response & Resolution
+  - Back Taxes & Payment Plans
+  - Year-Round Tax Planning
+  - Retirement & Investment Tax Strategy
+  - New Business Entity Selection (LLC, S-Corp)
 benefits:
-  - Experienced CPAs and tax professionals
-  - Maximize your tax savings and deductions
-  - Stay compliant with ever-changing tax laws
-  - Year-round support and guidance
-  - Proactive tax planning strategies
+  - One team for your taxes, insurance, and retirement planning
+  - We represent you before the IRS so you don't face them alone
+  - Bilingual service — explain complex tax issues in your language
+  - Year-round support, not just during tax season
+  - Proactive planning to reduce next year's bill, not just file this year's
 ---
 
-## Comprehensive Tax Solutions
+## More Than Just Filing
 
-Our tax services are designed to help individuals and businesses navigate the complex world of taxation. Whether you need assistance with annual tax returns, strategic tax planning, or representation before tax authorities, our experienced team is here to help.
+Anyone can fill in a form. Good tax work means paying exactly what you owe and not a dollar more — and having someone in your corner when the IRS comes asking. We prepare returns for individuals and businesses, represent clients in disputes, and plan ahead so each year's bill is smaller than it would have been.
 
-### Individual Tax Services
+### Individual & Business Tax Returns
 
-We provide personalized tax preparation and planning services for individuals, ensuring you take advantage of all available deductions and credits while staying fully compliant with tax regulations.
+From simple W-2 returns to multi-state filings, rental properties, stock and RSU income, and business returns for LLCs, S-Corps, and partnerships. We file accurately, on time, and explain everything in plain English or Chinese.
 
-### Business Tax Services
+### IRS Dispute Representation
 
-From small businesses to large corporations, we offer comprehensive tax solutions including corporate tax returns, quarterly estimated tax planning, and strategic tax advisory services.
-
-### Retirement Planning
-
-Plan for your future with our retirement planning services. We help you understand tax-advantaged retirement accounts, required minimum distributions, and strategies to minimize taxes in retirement.
+Received a letter from the IRS or the state? Don't panic — and don't face them alone. We respond to notices, represent you in audits, negotiate payment plans, and work to resolve back-tax issues. In most cases, you never have to speak with the IRS directly.
 
 ### Tax Planning & Strategy
 
-Don't wait until tax season. Our proactive tax planning services help you make informed financial decisions throughout the year to minimize your tax liability and maximize your financial success.
+The biggest tax savings happen **before** December 31, not in April. We help business owners choose the right entity structure, time income and deductions, plan retirement contributions, and coordinate with insurance strategies (like IUL and annuities) for tax-advantaged growth.
+
+### Business Owners: Insurance + Tax Together
+
+Your workers' comp audit, your owner's salary, your entity type, and your insurance deductions all interact. Because we handle both insurance and tax, we catch the savings that single-service providers miss.

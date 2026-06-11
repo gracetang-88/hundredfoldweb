@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useLanguage } from '@/lib/LanguageContext';
 
 interface ServiceCardProps {
   title: string;
@@ -6,23 +9,31 @@ interface ServiceCardProps {
   iconBg: string;
   icon: string;
   slug: string;
+  quote?: boolean;
 }
 
-export default function ServiceCard({ title, items, iconBg, icon, slug }: ServiceCardProps) {
+export default function ServiceCard({ title, items, iconBg, icon, slug, quote }: ServiceCardProps) {
+  const { language } = useLanguage();
+
   return (
-    <Link href={`/services/${slug}`}>
-      <div className="flex flex-col items-center text-center cursor-pointer hover:transform hover:scale-105 transition-transform duration-200">
-        <div className={`w-24 h-24 rounded-full ${iconBg} flex items-center justify-center mb-6`}>
+    <Link href={`/services/${slug}`} className="block h-full">
+      <div className="h-full flex flex-col items-center text-center bg-white rounded-2xl shadow-sm hover:shadow-lg border border-gray-100 p-8 transition-all duration-200 hover:-translate-y-1">
+        <div className={`w-20 h-20 rounded-full ${iconBg} flex items-center justify-center mb-5`}>
           <span className="text-4xl">{icon}</span>
         </div>
-        <h3 className="text-2xl font-semibold text-green-700 mb-4 hover:text-green-800">{title}</h3>
-        <ul className="space-y-2 text-gray-600 mb-4">
+        <h3 className="text-xl font-semibold text-gray-800 mb-4">{title}</h3>
+        <ul className="space-y-1.5 text-gray-600 text-sm mb-5 flex-1">
           {items.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <span className="text-green-600 hover:text-green-700 font-medium">
-          Learn More →
+        {quote && (
+          <span className="text-xs font-medium text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1 mb-3">
+            {language === 'en' ? '⚡ Online Quote Available' : '⚡ 支持在线报价'}
+          </span>
+        )}
+        <span className="text-emerald-600 font-medium text-sm">
+          {language === 'en' ? 'Learn More →' : '了解更多 →'}
         </span>
       </div>
     </Link>

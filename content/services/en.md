@@ -1,42 +1,59 @@
 ---
 title: Services We Provide For You
-subtitle: Professional and complete All-In-One service for the clients to enjoy. Services from life insurance, annuity, and financial management, to now encompassing mortgage financing, real estate, asset management, health insurance, and Property & Casualty insurance.
+subtitle: As an independent agency representing dozens of top-rated insurance carriers, we shop the market for you — so you get the right coverage at the right price. Combined with our professional tax services, we offer a true one-stop solution for your family and your business.
 services:
+  - title: Life Insurance
+    slug: life-insurance
+    icon: 👨‍👩‍👧‍👦
+    iconBg: bg-emerald-50
+    items:
+      - "Term Life Insurance"
+      - "Whole Life Insurance"
+      - "Indexed Universal Life (IUL)"
+      - "Final Expense Coverage"
+  - title: Annuity
+    slug: annuity
+    icon: 🌱
+    iconBg: bg-teal-50
+    items:
+      - "Fixed & Fixed Indexed Annuities"
+      - "Guaranteed Lifetime Income"
+      - "401(k) / IRA Rollover"
+      - "Retirement Income Planning"
+  - title: Commercial Insurance
+    slug: commercial-insurance
+    icon: 🏢
+    iconBg: bg-sky-50
+    quote: true
+    items:
+      - "General Liability"
+      - "Commercial Property"
+      - "Workers' Compensation"
+      - "Business Owner's Policy (BOP)"
+  - title: Travel Insurance
+    slug: travel-insurance
+    icon: ✈️
+    iconBg: bg-amber-50
+    quote: true
+    items:
+      - "Trip & Travel Medical Coverage"
+      - "Visitors to USA Insurance"
+      - "Instant Online Quotes"
   - title: Tax Services
     slug: tax-services
-    icon: 🧮
-    iconBg: bg-gray-100
+    icon: 📋
+    iconBg: bg-violet-50
     items:
-      - "Individual & Corp tax return"
-      - "Retirement Planning"
-      - "Tax Coaching & Planning"
-  - title: Insurance
-    slug: insurance
-    icon: 🛡️
-    iconBg: bg-green-100
-    items:
-      - "Life & Annuities"
-      - "Commercial Insurance"
-      - "Medicare"
-  - title: Lending
-    slug: lending
-    icon: 💰
-    iconBg: bg-yellow-100
-    items:
-      - "Mortgage and Refinancing"
-      - "Private Lending"
-  - title: Real Estate
-    slug: real-estate
-    icon: 🏠
-    iconBg: bg-blue-100
-    items:
-      - "Team brokered by eXp Realty"
-  - title: Investment
-    slug: investment
-    icon: 📊
-    iconBg: bg-red-100
-    items:
-      - "Trust Service"
-      - "Family Office"
-      - "Advisory"
+      - "Individual & Business Tax Returns"
+      - "IRS Dispute Representation"
+      - "Tax Planning & Strategy"
+comingSoon:
+  title: Coming Soon
+  items:
+    - title: Real Estate
+      icon: 🏠
+      description: "Buy, sell, and invest with our trusted partners"
+    - title: Lending
+      icon: 💰
+      description: "Mortgage and refinancing solutions"
 ---

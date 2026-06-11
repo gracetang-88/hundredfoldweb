@@ -15,7 +15,16 @@ interface ServiceData {
     items: string[];
     iconBg: string;
     icon: string;
+    quote?: boolean;
   }>;
+  comingSoon?: {
+    title: string;
+    items: Array<{
+      title: string;
+      icon: string;
+      description: string;
+    }>;
+  };
 }
 
 export default function ServicesPage() {
@@ -60,7 +69,7 @@ export default function ServicesPage() {
             {content.subtitle}
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {content.services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -69,9 +78,33 @@ export default function ServicesPage() {
                 items={service.items}
                 iconBg={service.iconBg}
                 icon={service.icon}
+                quote={service.quote}
               />
             ))}
           </div>
+
+          {/* Coming Soon Section */}
+          {content.comingSoon && (
+            <div className="max-w-6xl mx-auto mt-20">
+              <h2 className="text-2xl font-semibold text-center text-gray-500 mb-8">
+                {content.comingSoon.title}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                {content.comingSoon.items.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-4 bg-white/60 border border-dashed border-gray-300 rounded-2xl p-6"
+                  >
+                    <span className="text-4xl opacity-60">{item.icon}</span>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-500">{item.title}</h3>
+                      <p className="text-sm text-gray-400">{item.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </main>
       <Footer />
