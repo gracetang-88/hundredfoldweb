@@ -7,11 +7,11 @@ import { Language } from '@/types';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   const searchParams = request.nextUrl.searchParams;
   const lang = (searchParams.get('lang') || 'en') as Language;
-  const { slug } = params;
+  const { slug } = await params;
 
   try {
     const filePath = path.join(

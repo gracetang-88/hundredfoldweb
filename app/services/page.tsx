@@ -53,10 +53,10 @@ export default function ServicesPage() {
         <div className="absolute bottom-20 left-10 w-[600px] h-[600px] bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-5xl font-bold text-center mb-8 text-gray-800">
+          <h1 className="text-5xl font-bold text-center mb-8 text-black">
             {content.title}
           </h1>
-          <p className="text-center text-gray-600 max-w-4xl mx-auto mb-16 text-lg leading-relaxed">
+          <p className="text-center text-black max-w-4xl mx-auto mb-16 text-lg leading-relaxed">
             {content.subtitle}
           </p>
 

@@ -15,7 +15,7 @@ export default function LanguageSwitcher() {
           className={`px-3 py-1 rounded transition-colors ${
             language === lang
               ? 'bg-blue-600 text-white'
-              : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+              : 'bg-gray-200 text-black hover:bg-gray-300'
           }`}
         >
           {languageNames[lang]}

@@ -2,9 +2,8 @@
 formTitle: Let me help you to take care of your life!
 generalEnquiries:
   title: General Enquiries
-  phone: "+1 (555) 123-4567"
-  email: "info@hundredfold.com"
-  address: "123 Main Street, Suite 100\nCity, State 12345"
+  phone: "+1 (669) 310-7777"
+  email: "contact@hundredfoldinsurance.net"
   officeHours:
     - day: Monday - Friday
       hours: "9:00 AM - 5:00 PM"
