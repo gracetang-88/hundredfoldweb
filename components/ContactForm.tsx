@@ -51,14 +51,14 @@ export default function ContactForm({ content }: ContactFormProps) {
 
   return (
     <div className="bg-white p-8 rounded-lg shadow-md">
-      <h2 className="text-4xl font-bold mb-8 text-gray-800 leading-tight">
+      <h2 className="text-4xl font-bold mb-8 text-black leading-tight">
         {content.formTitle}
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label className="block text-gray-700 font-medium mb-2">
+            <label className="block text-black font-medium mb-2">
               {content.formFields.firstName}*
             </label>
             <input
@@ -72,7 +72,7 @@ export default function ContactForm({ content }: ContactFormProps) {
           </div>
 
           <div>
-            <label className="block text-gray-700 font-medium mb-2">
+            <label className="block text-black font-medium mb-2">
               {content.formFields.lastName}*
             </label>
             <input
@@ -87,7 +87,7 @@ export default function ContactForm({ content }: ContactFormProps) {
         </div>
 
         <div>
-          <label className="block text-gray-700 font-medium mb-2">
+          <label className="block text-black font-medium mb-2">
             {content.formFields.email}*
           </label>
           <input
@@ -101,7 +101,7 @@ export default function ContactForm({ content }: ContactFormProps) {
         </div>
 
         <div>
-          <label className="block text-gray-700 font-medium mb-2">
+          <label className="block text-black font-medium mb-2">
             {content.formFields.phone}
           </label>
           <input
@@ -114,7 +114,7 @@ export default function ContactForm({ content }: ContactFormProps) {
         </div>
 
         <div>
-          <label className="block text-gray-700 font-medium mb-2">
+          <label className="block text-black font-medium mb-2">
             {content.formFields.contactMethod}*
           </label>
           <select
@@ -134,7 +134,7 @@ export default function ContactForm({ content }: ContactFormProps) {
         </div>
 
         <div>
-          <label className="block text-gray-700 font-medium mb-2">
+          <label className="block text-black font-medium mb-2">
             {content.formFields.interest}*
           </label>
           <select
@@ -154,7 +154,7 @@ export default function ContactForm({ content }: ContactFormProps) {
         </div>
 
         <div>
-          <label className="block text-gray-700 font-medium mb-2">
+          <label className="block text-black font-medium mb-2">
             {content.formFields.details}*
           </label>
           <textarea
@@ -168,7 +168,7 @@ export default function ContactForm({ content }: ContactFormProps) {
         </div>
 
         <div>
-          <label className="block text-gray-700 font-medium mb-2">
+          <label className="block text-black font-medium mb-2">
             {content.formFields.hearAbout}
           </label>
           <select

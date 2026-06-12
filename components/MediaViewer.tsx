@@ -16,7 +16,7 @@ export default function MediaViewer({ item }: MediaViewerProps) {
   if (!item) {
     return (
       <div className="bg-gray-50 p-8 rounded-lg shadow-md">
-        <div className="text-center text-gray-500 py-20">
+        <div className="text-center text-black py-20">
           {language === 'en'
             ? 'Select an item below to view details'
             : '选择下方项目以查看详情'}

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-8 mt-16">
       <div className="container mx-auto px-4 text-center">
-        <p className="text-gray-400">
+        <p className="text-gray-300">
           © {new Date().getFullYear()}{' '}
           {language === 'en' ? 'HundredFold. All rights reserved.' : '百福。版权所有。'}
         </p>

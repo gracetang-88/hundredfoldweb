@@ -56,10 +56,10 @@ export default function ServiceDetailPage() {
         <Header />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-800 mb-4">
+            <h1 className="text-3xl font-bold text-black mb-4">
               {language === 'en' ? 'Service Not Found' : '服务未找到'}
             </h1>
-            <a href="/services" className="text-green-600 hover:text-green-700">
+            <a href="/services" className="text-blue-600 hover:text-blue-700">
               {language === 'en' ? 'Back to Services' : '返回服务页面'}
             </a>
           </div>
@@ -72,19 +72,19 @@ export default function ServiceDetailPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 py-16 bg-gradient-to-b from-blue-50/50 via-gray-50 to-green-50/60 relative overflow-hidden">
+      <main className="flex-1 py-16 bg-gradient-to-b from-blue-200 via-blue-100 to-cyan-100 relative overflow-hidden">
         {/* Decorative background */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] bg-green-200/30 rounded-full blur-3xl -z-10"></div>
-        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-200/30 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] bg-blue-300/20 rounded-full blur-3xl -z-10"></div>
+        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-cyan-200/20 rounded-full blur-3xl -z-10"></div>
 
         <div className="container mx-auto px-4 max-w-5xl relative z-10">
           {/* Header Section */}
           <div className="text-center mb-12">
             <div className="text-6xl mb-6">{content.icon}</div>
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">
+            <h1 className="text-5xl font-bold text-black mb-6">
               {content.title}
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-xl text-black leading-relaxed">
               {content.description}
             </p>
           </div>
@@ -93,21 +93,43 @@ export default function ServiceDetailPage() {
           {content.content && (
             <div
               className="prose prose-lg max-w-none mb-12"
+              style={{
+                color: '#000'
+              }}
               dangerouslySetInnerHTML={{ __html: content.content }}
             />
           )}
+          <style jsx>{`
+            .prose h2,
+            .prose h3,
+            .prose h4,
+            .prose p,
+            .prose li,
+            .prose strong {
+              color: #000 !important;
+            }
+            .prose a {
+              color: #2563eb !important;
+              font-weight: 700 !important;
+              text-decoration: none !important;
+            }
+            .prose a:hover {
+              color: #1d4ed8 !important;
+              text-decoration: underline !important;
+            }
+          `}</style>
 
           {/* Features Section */}
           {content.features && content.features.length > 0 && (
             <div className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+              <h2 className="text-3xl font-bold text-black mb-6">
                 {language === 'en' ? 'Our Services Include' : '我们的服务包括'}
               </h2>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.features.map((feature, index) => (
                   <li key={index} className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">✓</span>
-                    <span className="text-gray-700 text-lg">{feature}</span>
+                    <span className="text-blue-600 mr-3 text-xl">✓</span>
+                    <span className="text-black text-lg">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -116,15 +138,15 @@ export default function ServiceDetailPage() {
 
           {/* Benefits Section */}
           {content.benefits && content.benefits.length > 0 && (
-            <div className="mb-12 bg-green-50 p-8 rounded-lg">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+            <div className="mb-12 bg-blue-50 p-8 rounded-lg">
+              <h2 className="text-3xl font-bold text-black mb-6">
                 {language === 'en' ? 'Why Choose Us' : '为什么选择我们'}
               </h2>
               <ul className="space-y-4">
                 {content.benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <span className="text-green-600 mr-3 text-xl">★</span>
-                    <span className="text-gray-700 text-lg">{benefit}</span>
+                    <span className="text-blue-600 mr-3 text-xl">★</span>
+                    <span className="text-black text-lg">{benefit}</span>
                   </li>
                 ))}
               </ul>
@@ -133,17 +155,17 @@ export default function ServiceDetailPage() {
 
           {/* CTA Section */}
           <div className="text-center mt-12 pt-8 border-t border-gray-200">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+            <h3 className="text-2xl font-semibold text-black mb-4">
               {language === 'en' ? 'Ready to Get Started?' : '准备开始了吗？'}
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-black mb-6">
               {language === 'en'
                 ? 'Contact us today to learn more about our services'
                 : '立即联系我们，了解更多关于我们服务的信息'}
             </p>
             <a
               href="/contact"
-              className="inline-block bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               {language === 'en' ? 'Contact Us' : '联系我们'}
             </a>
@@ -151,7 +173,7 @@ export default function ServiceDetailPage() {
 
           {/* Back to Services Link */}
           <div className="text-center mt-8">
-            <a href="/services" className="text-green-600 hover:text-green-700">
+            <a href="/services" className="text-blue-600 hover:text-blue-700">
               ← {language === 'en' ? 'Back to All Services' : '返回所有服务'}
             </a>
           </div>
